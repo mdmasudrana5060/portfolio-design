@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+section{
+    height:500px;
+    background-repeat: no-repeat;
+    padding-bottom:150px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+}
+h1{
+    font-size: 40px;
+    text-transform: capitalize;
+   /* color:aqua;*/
+    font-family: 'Playfair Display', serif;
+}
+.name{
+    color:blue;
+}
+.half-width{
+    width:35%;
+    float:left;
+    margin:80px;
+    padding:2px;
+}
+.half-width img{
+    width:100%
+}
+p{
+    padding-bottom:5px;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-color: orange;
+    padding:1px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight:700;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    margin-top:10px;
+
+}
+h3{
+    font-size: 30px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display', serif;
+    padding-bottom:5px;
+}
+.middle{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h4{
+    color:orange;
+}
+.exp{
+
+    margin-top:50px;
+    margin-left:50px;
+    margin-bottom:0px;
+    padding:0px;
+    text-transform: uppercase;
+    /*font-size: 30px;*/
+}
+.single-column{
+    box-shadow: 10px 10px 40px grey;
+    height:50%;
+    padding:0px 10px 10px 10px;
+    text-transform:capitalize;
+    background-color:white;
+}
+.experience{
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#full{
+    border-left:5px solid;
+    border-image:linear-gradient(180deg,lightsalmon,orange);
+    border-image-slice: 1;
+
+}
+#learning{
+    border-left:5px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align:center;
+    text-transform:capitalize;
+    padding:30px;
+
+}
